@@ -1,3 +1,19 @@
+#1
+======
+| Method                      | Mean     | Error    | StdDev  |
+|---------------------------- |---------:|---------:|--------:|
+| ComplexMultiplicationH      | 778.6 ns | 10.15 ns | 9.50 ns |
+| SimdComplexMultiplicationS  | 846.4 ns |  8.10 ns | 7.57 ns |
+| SimdComplexMultiplicationS2 | 707.2 ns |  6.55 ns | 6.13 ns |
+| SimdComplexMultiplicationS3 | 713.2 ns | 10.30 ns | 9.64 ns |
+| SimdComplexMultiplicationS4 | 495.3 ns |  7.07 ns | 6.61 ns |
+| SimdComplexAdditionH        | 593.5 ns |  7.83 ns | 7.32 ns |
+| SimdComplexAdditionS        | 481.5 ns |  5.30 ns | 4.95 ns |
+| ComplexNopH                 | 339.9 ns |  2.50 ns | 2.21 ns |
+| ComplexNopS                 | 335.2 ns |  1.84 ns | 1.63 ns |
+
+#2
+======
 | Method                        | Mean     | Error   | StdDev  |
 |------------------------------ |---------:|--------:|--------:|
 | SimdComplexMultiplicationH    | 629.6 ns | 3.59 ns | 3.18 ns |
