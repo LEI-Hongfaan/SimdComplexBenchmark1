@@ -46,6 +46,7 @@ namespace HSMulBenchmark2 {
         public void Cleanup() {
             NativeMemory.AlignedFree(_simdData1);
             NativeMemory.AlignedFree(_simdData2);
+            NativeMemory.AlignedFree(_simdData3);
         }
 
         [Benchmark]
