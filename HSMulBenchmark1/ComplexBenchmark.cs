@@ -75,7 +75,6 @@ namespace HSMulBenchmark1 {
             }
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         static System.Numerics.Complex Mul3(double x, System.Numerics.Complex y) {
             double re = (x * y.Real) - (0.0 * y.Imaginary);
             double im = (x * y.Imaginary) + (0.0 * y.Real);
@@ -92,7 +91,6 @@ namespace HSMulBenchmark1 {
             }
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         static System.Numerics.Complex Mul4(double x, System.Numerics.Complex y) {
             double re = x * y.Real;
             double im = x * y.Imaginary;
