@@ -51,7 +51,7 @@ namespace HSMulBenchmark1 {
         }
 
         [Benchmark]
-        public void SimdComplexMultiplicationS() {
+        public void ComplexMultiplicationS() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
@@ -66,7 +66,7 @@ namespace HSMulBenchmark1 {
         }
 
         [Benchmark]
-        public void SimdComplexMultiplicationS2() {
+        public void ComplexMultiplicationS2() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
@@ -83,7 +83,7 @@ namespace HSMulBenchmark1 {
         }
 
         [Benchmark]
-        public void SimdComplexMultiplicationS3() {
+        public void ComplexMultiplicationS3() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
@@ -100,7 +100,7 @@ namespace HSMulBenchmark1 {
         }
 
         [Benchmark]
-        public void SimdComplexMultiplicationS4() {
+        public void ComplexMultiplicationS4() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
@@ -110,7 +110,7 @@ namespace HSMulBenchmark1 {
         }
 
         [Benchmark]
-        public void SimdComplexAdditionH() {
+        public void ComplexAdditionH() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
@@ -121,7 +121,7 @@ namespace HSMulBenchmark1 {
 
 
         [Benchmark]
-        public void SimdComplexAdditionS() {
+        public void ComplexAdditionS() {
             var data1 = _data1;
             var data2 = _data2;
             var data3 = _data3;
