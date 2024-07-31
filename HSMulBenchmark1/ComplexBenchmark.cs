@@ -60,7 +60,6 @@ namespace HSMulBenchmark1 {
             }
         }
 
-
         static System.Numerics.Complex Mul2(double x, System.Numerics.Complex y) {
             return (System.Numerics.Complex)x * y;
         }
